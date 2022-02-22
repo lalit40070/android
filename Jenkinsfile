@@ -4,7 +4,7 @@ agent any
 
 stage('Android Build'){
     steps{
-        sh 'npm ionic cordova build android --release'
+        sh 'npm build'
     }
 }
         
