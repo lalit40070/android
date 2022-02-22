@@ -4,7 +4,7 @@ agent any
 
 stage('Android Build'){
     steps{
-        sh 'npm build android'
+        sh 'npm build .'
     }
 }
         
